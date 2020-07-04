@@ -10,18 +10,18 @@
 [Here](http://demo.alittletrash.com/)
 
 ## Feature
-** shopping cart **
+**shopping cart**
 * A shopping list page with items 
 * A shopping cart with add and remove items
 * Calculate total money with shipping
 
-** buyer's information form **
+**buyer's information form**
 *  buyer's information with shipping address
 
-** paypal button **
+**paypal button**
 * a paypal button integration of paypal checkout
 
-** checkout process **
+**checkout process**
 * when button clicked, the  buyer's infomation and shopping items list would be send to paypal
 * when customer approved, it communicate with server to complete order
 * finally, the user get a thank you page 
