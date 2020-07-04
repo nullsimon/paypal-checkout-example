@@ -1,0 +1,75 @@
+.box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.material-icons{
+    font-size: 2.4em;
+    cursor: pointer;
+}
+.card{
+    width: 300px;
+}
+.card .card-image .card-title{
+    color: black;
+    font-weight: 400
+}
+.cart{
+    margin-top:40px;
+}
+.collection .collection-item{
+    display: flex;
+}
+.collection-item.avatar .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ee6e73;
+    display: block;
+    margin-bottom: 20px;
+    
+}
+.collection .collection-item img{
+    width: 150px;
+    margin-right: 25px;
+}
+.item-desc{
+    align-self:center;
+}
+.shipping-title {
+    font-size: 20px;
+    font-weight: 500;
+    /* color: #ee6e73; */
+    display: block;
+    margin-bottom: 20px;
+    border-left:6px solid #ccc!important;
+    background-color:#ddffff!important
+}
+
+.shipping-title:hover{color:#000!important;background-color:#ddffff!important}
+
+.thankyou {
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+
+    /* color: #ee6e73; */
+    display: block;
+    margin-bottom: 20px;
+    border-left:6px solid #ccc!important;
+    margin: auto;
+    width: 50%;
+    border: 3px solid rosybrown;
+    padding: 10px;
+  
+}
+/* .center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rosybrown;
+    padding: 10px;
+} */
+
+.orderid {
+    font-size: 20px;
+    color: #ee6e73;
+}

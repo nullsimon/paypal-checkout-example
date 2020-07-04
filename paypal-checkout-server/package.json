@@ -1,0 +1,12 @@
+{
+  "name": "paypal-checkout-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "@paypal/checkout-server-sdk": "^1.0.2"
+  }
+}
