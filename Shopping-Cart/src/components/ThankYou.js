@@ -6,11 +6,11 @@ class ThankYou extends Component{
     render() {
         const query = new URLSearchParams(this.props.location.search);
 
-        var orderId = query.get('orderId');
+        var transactionID = query.get('transactionID');
         return (
             <div className='thankyou center'>
-                <h3 >Thanks for your order</h3>
-                <p className='orderid'>{orderId} </p> 
+                <h3 >Thanks for your order, Your transactionID as follows</h3>
+                <p className='transactionID'>{transactionID} </p> 
             </div>
         )
     }

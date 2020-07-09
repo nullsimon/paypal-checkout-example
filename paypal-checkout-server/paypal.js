@@ -16,10 +16,12 @@ module.exports = async function (req, res) {
 
     try {
         response = await client.execute(request);
+        let transactionID = response.result.purchase_units[0].payments.captures[0].id;
+        console.log("this is transactionID: ", transactionID)
         console.log(JSON.stringify(response.result, null, 2));
         //do something with the order etc, check & run you owner business, then send a confirmation to user
         // this is a example, just send back the orderId get from paypal transaction
-        res.send({'orderID': req.body.orderID})
+        res.send({'transactionID': transactionID})
     } catch (error) {
         console.log(error)
         res.sendStatus(500);

@@ -82,7 +82,7 @@ export default class PaypalCheckout extends Component {
             }).then(response => response.json())
               .then(data => {
                 console.log(data);
-                window.location.href = '/thankyou?orderId=' + data.orderID;
+                window.location.href = '/thankyou?transactionID=' + data.transactionID;
               })
               .catch(err => {
                 console.log(err)
